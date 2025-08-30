@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>virtual_frame_broadcaster</name>
+  <version>0.0.1</version>
+  <description>
+    Broadcast a virtual base frame to tf_buffer.
+  </description>
+  <license>BSD</license>
+  <author email="jaehyunlim@yonsei.ac.kr">Jaehyun Lim</author>
+  <maintainer email="jaehyunlim@yonsei.ac.kr">Jaehyun Lim</maintainer>
+  <url type="repository">https://github.com/lim271</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>tf2</build_depend>
+  <build_depend>tf2_geometry_msgs</build_depend>
+  <build_depend>tf2_ros</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>tf2</run_depend>
+  <run_depend>tf2_geometry_msgs</run_depend>
+  <run_depend>tf2_ros</run_depend>
+</package>

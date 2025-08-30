@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="virtual_frame_broadcaster" type="virtual_frame_broadcaster_node" name="virtual_frame_broadcaster" output="screen">
+    <param name="parent_frame" value="base_footprint" />
+    <param name="child_frame"  value="virtual_base_link" />
+    <param name="cmd_vel_topic"  value="/cmd_vel" />
+    <param name="dt"  value="0.05" />
+    <param name="delayed_step"  value="15" />
+    <!-- <param name="delayed_step"  value="12" /> -->
+  </node>
+</launch>
+
